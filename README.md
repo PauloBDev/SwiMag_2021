@@ -1,8 +1,4 @@
 # SwiMag
-echo "# SwiMag" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/EngelibertTom/SwiMag.git
-git push -u origin main
+Mobile Application Built within 1 week project!
+
+SwiMag is an application to facilitate the learning curve of swimming, either to start competing or simple guides to learn how to swim!
