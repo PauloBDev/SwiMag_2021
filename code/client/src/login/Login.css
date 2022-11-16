@@ -1,0 +1,49 @@
+.login_form {
+    border: solid 1px #3E4898;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login_form div {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.login_form label {
+    margin-bottom: 0.5rem;
+    color: #3E4898;
+    font-size: 15pt;
+}
+
+.login_form .div_btn {
+    display: flex;
+    align-items: center;
+}
+
+.login>h1 {
+    text-align: center;
+}
+
+.mdp_perdu {
+    color: #3E4898;
+}
+
+.mdp_perdu:hover {
+    text-decoration: underline;
+}
+
+.cree_cpt {
+    font-size: 18pt;
+    color: #3E4898;
+    text-align: center;
+}
+
+.cree_cpt:hover {
+    text-decoration: underline;
+}
+
+.div_cree_cpt {
+    text-align: center;
+}

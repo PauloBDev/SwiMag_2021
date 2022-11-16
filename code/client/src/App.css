@@ -1,0 +1,144 @@
+ h1 {
+     color: #3E4898;
+     font-weight: normal;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ /* Aspect des input*/
+
+ .input {
+     border-radius: 10px;
+     border: solid 1px #3E4898;
+     padding: 0.3rem 0.5rem;
+ }
+
+ .btn {
+     background: #3E4898;
+     border: 0.1px solid #3E4898;
+     border-radius: 17px;
+     color: white;
+     padding: 0.5rem 3rem;
+     width: fit-content;
+     transition: 100ms;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     background-color: #03045E;
+     transition: 100ms;
+ }
+
+ /*MENU DYNAMIQUE*/
+ /*Fonctionnement*/
+
+ .header-toogle {
+     position: absolute;
+     top: 25px;
+     right: 10px;
+     display: block;
+ }
+
+ .header-toogle-close {
+     display: none;
+ }
+
+ .header-menu {
+     max-height: 0;
+     overflow: hidden;
+     display: block;
+     transition: max-height 300ms ease-in-out
+ }
+
+ #main-header:target .header-toogle-close {
+     display: inline;
+ }
+
+ #main-header:target .header-toogle-open {
+     display: none;
+ }
+
+ #main-header:target .header-menu {
+     max-height: 24rem;
+     transition: max-height 300ms ease-in-out
+ }
+
+ /*Design*/
+
+
+ .img_logo {
+     width: 50%;
+ }
+
+ .flex_logo {
+     display: flex;
+     align-items: center;
+ }
+
+ .nom_logo {
+     color: #3E4898;
+     font-size: 20pt;
+ }
+
+ .div_logo {
+     display: flex;
+     align-items: center;
+ }
+
+ .div_logo a:hover {
+     text-decoration: none;
+ }
+
+ .img_loupe {
+     margin-right: 6rem;
+ }
+
+
+ #main-header {
+     /* padding: 0.8rem 2vw; */
+     margin-top: 1.2rem;
+     border-bottom: 1px #3E4898 solid;
+     padding-bottom: 0.5rem;
+ }
+
+
+ .header-menu {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .haut_trait {
+     border-bottom: 1px #3E4898 solid;
+ }
+
+ .haut_cat {
+     font-weight: lighter;
+     margin-left: 1rem;
+ }
+
+ .haut_titre_cat {
+     margin: 0.3rem 0;
+     font-weight: 500;
+ }
+
+ header a:hover {
+     text-decoration: underline;
+ }
+
+ .log_regi {
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     margin-top: 0.7rem;
+ }
+
+ .log_regi>img:nth-child(4) {
+     margin-left: 0.4rem;
+ }
+
+ .haut_gras {
+     font-weight: normal;
+ }

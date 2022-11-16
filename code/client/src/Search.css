@@ -1,0 +1,26 @@
+.div_search {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_search>label {
+    color: #3E4898;
+    font-weight: normal;
+    text-align: center;
+    font-size: 20pt;
+}
+
+
+.div_btn {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.search {
+    margin-top: 1rem;
+}
+
+.search .btn {
+    padding: 0.1rem 01rem !important;
+}
+   
